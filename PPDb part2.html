@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Versi tegar
+        let nilai = prompt ("isi nilai mu kids");
+
+        if (nilai <= 100 && nilai >=90) {
+            console.log("Selamat Anda Lolos");
+        } else if (nilai >=80 && nilai < 90) {
+            jalur = prompt ("mau pilih jalur yang mana kids");
+            if (jalur == ("rapot")) {
+                console.log("Anda Memilih Jalur Rapot");
+            } else if (jalur == ("prestasi")) {
+                console.log("anda Memilih Jalur Prestasi");
+            } else;
+        } else {
+            console.log("Tes mandiri Ya KIds");
+            hasiltes = prompt ("Masukkan hasil tes");
+            if (hasiltes >= 79 && hasiltes <= 100) {
+                console.log("Anda Lulus YA kids");
+            } else {
+                console.log("gagal Deh kids");
+            }
+        };
+
+        // Versi Bu Duma
+        let nilaiUN = 70;
+        let TesMandiri = 80;
+        let jalur = "Rapot";
+
+        if (nilaiUN >= 90 && nilaiUN <= 100) {
+            console.log("Nilai Sempurna")
+        } else if (nilaiUN >= 75 && nilaiUN < 90) {
+            if (jalur == "Rapot") {
+                console.log("Anda Lulus Nilai Lewat Jalur Rapot")
+            } else if (jalur == "prestasi") {
+                console.log("Anda Lulus Nilai Lewat Jalur Prestasi")
+            }
+        } else {
+            if(TesMandiri >= 80) {
+                console.log("Lolos Tes Masuk")
+            } else {
+                console.log("Tidak Tes Masuk")
+            }
+        };
+    </script>
+</body>
+</html>
